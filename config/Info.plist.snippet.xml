@@ -1,0 +1,13 @@
+<!-- ios/Runner/Info.plist
+     Pega estas claves DENTRO del <dict> principal. Sin ellas iOS cierra la
+     app al intentar usar la cámara. El texto se lo muestra al usuario. -->
+
+<key>NSCameraUsageDescription</key>
+<string>Rumba usa la cámara para que puedas tomar y enviar fotos en tus Rumbas.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Rumba accede a tus fotos para que puedas adjuntarlas en tus Rumbas.</string>
+
+<!-- NSMicrophoneUsageDescription NO es necesaria porque usamos
+     CameraController(..., enableAudio: false). Si activas el audio y no
+     declaras esta clave, la app se cae en iOS. -->

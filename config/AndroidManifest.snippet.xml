@@ -1,0 +1,13 @@
+<!-- android/app/src/main/AndroidManifest.xml
+     Pega estas líneas DENTRO de <manifest>, ANTES de <application>. -->
+
+<!-- Permiso de cámara (peligroso: se pide en ejecución, lo hace el plugin) -->
+<uses-permission android:name="android.permission.CAMERA" />
+
+<!-- required="false": la app también se instala en equipos sin cámara -->
+<uses-feature android:name="android.hardware.camera" android:required="false" />
+
+<!-- Galería: NO hace falta READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE.
+     image_picker usa el Photo Picker del sistema, que no pide permisos. -->
+
+<!-- Además, en android/app/build.gradle(.kts): minSdk = 21 (o superior) -->

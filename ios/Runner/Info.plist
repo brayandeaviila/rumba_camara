@@ -8,6 +8,21 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Rumba Camara</string>
+
+<!-- Permisos de iOS aquiii -->
+
+	<key>NSCameraUsageDescription</key>
+	<string>Rumba necesita acceder a la cámara para tomar fotos</string>
+	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Rumba necesita acceder a tu galería para seleccionar fotos</string>
+	
+	<key>NSCameraUsageDescription</key>
+	<string>Rumba necesita la cámara para tomar fotos.</string>
+	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Rumba necesita acceder a la galería para adjuntar fotos.</string>
+	
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
